@@ -1,0 +1,26 @@
+1,5,-1500..compare 1 and 5. 5 is bigger. write for loop 5 times to take care of upto 5  customer. Make last_count=5.
+6,5,-500..compare 6 and 5. 6 is bigger. compare 6 and last_count. write for loop(6-last_count) times. Make last_count=6.
+12,5,-1000..12 is a new customer id. add it in map1,map2,map3
+1,8,-800
+Master_list=[["CS"],[2],[3],[4],["Siva"],["Lalu"],[7],["Tejashwini]]
+Master_Map={
+            1:"['CS','ckuthyar','9481851276']",
+            2:"['2','',]"
+            3:"['3','',]"
+            4:"['4','',]"
+            5:"['Siva','sivashankarchandrappa@gmail.com','8762467173']"
+            6:"['Lalu','lalu@gmail.com','2467173']"
+            7:"['7','',]"
+            8:"['Tejashwini','tejashwini@gmail.com','8767173']"
+            12:"['new_cus','new@gmail.com',]"
+Liability             
+map2={
+      1:["CS" +s1 +"Sivashankar"+ 1500","CS "+s1+ "Tejashwini"+ 800"],
+      6:["Lalu" +s1+ "Sivashankar"+ 500],
+Asset
+map3={
+      5:["Sivashankar"+s2+ "CS"+ 1500,
+         "Sivashankar"+s2+ "Lalu"+ 500]
+         
+http://localhost:8080/en/getLedger1/5 //output in English
+http://localhost:8080/kn/getLedger1/5 //output in Kannada

@@ -3,6 +3,8 @@ package pkg1.univ1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,5 +18,10 @@ public class UnivCon {
 	public ResponseEntity<UnivEntity> addUniv(@RequestBody UnivEntity ue) {
 		UnivEntity ue2=univRepo.save(ue);
 		return new ResponseEntity<>(ue2,HttpStatus.CREATED);
+	}
+	@GetMapping("/getunivById/{id}")
+	public String getUnivById(@PathVariable int id) {
+		return "";
+		
 	}
 }

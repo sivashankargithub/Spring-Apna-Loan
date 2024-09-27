@@ -10,6 +10,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "colleges")
 public class UnivEntity {
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	int id;
